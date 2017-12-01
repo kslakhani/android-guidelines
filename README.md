@@ -3,7 +3,7 @@
 
 Welcome to my Android Guidelines repo 
 
-This repository is consist of project guidelines that I follow during android application development.
+This repository is consist of project guidelines that I follow during development.
   
 Here you'll find:
 
