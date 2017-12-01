@@ -42,9 +42,9 @@ The style guide is meant to keep the code consistent, clean and organized at a h
 Class names are written in [UpperCamelCase](http://en.wikipedia.org/wiki/CamelCase).
 
 Any classes extending an Android framework component should **always** end with the component name. For example:
-
+```
 HomeActivity, LoginFragment, RateAppDialog, CountriesAdapter, AspectRatioFrameLayout, CircularImageView 
-
+```
 
 
 ### 1.1.2 Resource Files
