@@ -41,7 +41,8 @@ The style guide is meant to keep the code consistent, clean and organized at a h
 
 Class names are written in [UpperCamelCase](http://en.wikipedia.org/wiki/CamelCase).
 
-Any classes extending an Android framework component should **always** end with the component name. For example:
+Any classes extending an Android framework component should **always** end with the component name.
+Example:
 ```
 HomeActivity, LoginFragment, RateAppDialog, CountriesAdapter, AspectRatioFrameLayout, CircularImageView 
 ```
@@ -58,7 +59,8 @@ All resource names follow a simple convention.
 
 #### &lt;WHERE&gt;
 
-Describe where it logically belongs in the app. For example:
+Describe where it logically belongs in the app.
+Example:
 
 | Subclass                | &lt;WHERE&gt;    |
 |------------------------ |------------------|
@@ -72,20 +74,21 @@ Describe where it logically belongs in the app. For example:
 
 #### &lt;WHAT&gt;
 
-Indicate what the resource actually represents. For example:
-
-    activity, fragment, item 
-
+Indicate what the resource actually represents.
+Example:
+```
+activity, fragment, item 
+```
 
 #### &lt;DESCRIPTION&gt;
 
-Differentiate multiple elements in one screen. For example: 
-
-    title 
+Differentiate multiple elements in one screen.
 
 #### &lt;SIZE&gt; (optional)
 
-Either a precise size or size bucket. Optionally used for drawables and dimensions. For Example:
+Either a precise size or size bucket. Optionally used for drawables and dimensions.
+
+Example:
 
 > `12dp`, `24dp`, `48dp`, `64dp`, `small`, `large`
 
@@ -103,9 +106,11 @@ For Drawables
 | Icon         | icon          | login_icon_envelope         |
 | Image        | image_	       | login_image_background      |
 
-Optionally you can add a **&lt;SIZE&gt;** or/and **&lt;COLOR&gt;** to diffrentiate same drawable of diffrent sizes or/and colors. For example:
-
-    login_icon_envelope_24dp_white,  all_shape_button_primary, all_image_divider_grey
+Optionally you can add a **&lt;SIZE&gt;** or/and **&lt;COLOR&gt;** to diffrentiate same drawable of diffrent sizes or/and colors.
+Example:
+```
+login_icon_envelope_24dp_white,  all_shape_button_primary, all_image_divider_grey
+```
 
 When creating selector state resources, they should be named using the corresponding suffix:
 
