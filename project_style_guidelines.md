@@ -60,6 +60,7 @@ All resource names follow a simple convention.
 #### &lt;WHERE&gt;
 
 Describe where it logically belongs in the app.
+
 Example:
 
 | Subclass                | &lt;WHERE&gt;    |
@@ -75,6 +76,7 @@ Example:
 #### &lt;WHAT&gt;
 
 Indicate what the resource actually represents.
+
 Example:
 ```
 activity, fragment, item 
@@ -107,6 +109,7 @@ For Drawables
 | Image        | image_	       | login_image_background      |
 
 Optionally you can add a **&lt;SIZE&gt;** or/and **&lt;COLOR&gt;** to diffrentiate same drawable of diffrent sizes or/and colors.
+
 Example:
 ```
 login_icon_envelope_24dp_white,  all_shape_button_primary, all_image_divider_grey
@@ -142,17 +145,20 @@ Not only does this approach makes it easy to find files in the directory that ar
 
 #### 1.1.2.3 Menu Files
 
-For menu files we will use the same name as the layout file it belogns to. For Example: 
+For menu files we will use the same name as the layout file it belogns to.
 
-    main_activity, main_fragment, login_activity, login_fragment
-
+Example: 
+```
+main_activity, main_fragment, login_activity, login_fragment
+```
 
 #### 1.1.2.4 Values Files
 
-All resource file names should be plural, for example:
-
-	attrs.xml, strings.xml, styles.xml, colors.xml, dimens.xml
-
+All resource file names should be plural.
+Example:
+```
+attrs.xml, strings.xml, styles.xml, colors.xml, dimens.xml
+```
 
 
 # 2. Code Guidelines
