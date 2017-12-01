@@ -505,4 +505,9 @@ Here is example strings using this approach.
 <string name="rate_app_action_later">Later</string>
 <string name="rate_app_action_no">No, Thanks</string>
 ```
+## References
+- https://github.com/bufferapp/android-guidelines
+- https://jeroenmols.com/blog/2016/03/07/resourcenaming/
+- https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship-ebook/dp/B001GSTOAM
+
    
