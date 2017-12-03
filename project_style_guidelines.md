@@ -331,7 +331,7 @@ Java uses **camelCase** convention for method names. The Method name should have
 For example:
 
 ```
-login() ,processAccount(), getUserDetail(), diaplayUserDetails()
+login(), processAccount(), getUserDetail(), diaplayUserDetails()
 ```
 
 ### 2.2.5 Method parameter ordering
